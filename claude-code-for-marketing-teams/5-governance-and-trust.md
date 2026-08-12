@@ -1,6 +1,6 @@
 ---
 title: Governance and trust — the questions a client asks before buying in
-description: A proof-of-concept walkthrough of the three pre-purchase questions every marketing client raises about Claude Code — where does our data go, what can the agent actually do, and what will it cost — with honest answers and the plan-by-plan nuances that matter.
+description: A practical walkthrough of the three pre-purchase questions every marketing client raises about Claude Code — where does our data go, what can the agent actually do, and what will it cost — with honest answers and the plan-by-plan nuances that matter.
 date: 2026-08-12
 version: 1.2
 status: published

@@ -1,5 +1,5 @@
 ---
-title: Claude Code for marketing teams — a proof-of-concept series
+title: Claude Code for marketing teams — a six-part guide
 description: Index and reading guide for a six-part series on using Claude Code to build, connect, run, govern, and scale repeatable marketing work. Entry point for the whole set.
 date: 2026-08-12
 version: 1.2
@@ -22,22 +22,22 @@ It's written for a non-technical marketing audience and anchored specifically to
 
 The six pieces build on each other: **build → connect → run → hand over → govern → scale.** Read in order the first time; each one references the ones before it.
 
-1. **[Building reusable marketing workflows](1-building-reusable-marketing-workflows-poc.md)**
+1. **[Building reusable marketing workflows](1-building-reusable-marketing-workflows.md)**
    Turn a repeatable process — brief-building, copy QA, campaign breakdowns — into a system anyone can run. Skills, subagents, dynamic workflows, and the brand-voice layer (output styles + CLAUDE.md). *This is the keystone: the leap from "I prompt better" to "here's a reusable system."*
 
-2. **[Connecting AI to the tools clients already use](2-connect-ai-to-client-tools-poc.md)**
+2. **[Connecting AI to the tools clients already use](2-connect-ai-to-client-tools.md)**
    Wire Claude into the CMS, analytics, drive, and project tools a team runs on, through MCP. Plus an honest read on triggering from Slack/chat (coding-shaped today) and the admin controls that gate any connection.
 
-3. **[Running it hands-off](3-run-it-hands-off-poc.md)**
+3. **[Running it hands-off](3-run-it-hands-off.md)**
    Scheduled and automated work with no one at the keyboard — weekly digests, recurring audits, reports. Cloud routines vs. local desktop tasks, and the honest caveat that most automation assumes a code repository.
 
-4. **[Putting it in non-coders' hands](4-put-it-in-non-coders-hands-poc.md)**
+4. **[Putting it in non-coders' hands](4-put-it-in-non-coders-hands.md)**
    The surfaces a non-technical marketer actually touches. The desktop app's Local mode is the real on-ramp (no terminal, no repo, approve-each-change); the web version is powerful but GitHub-bound.
 
-5. **[Governance and trust](5-governance-and-trust-poc.md)**
+5. **[Governance and trust](5-governance-and-trust.md)**
    The pre-buy conversation: where does our data go, what can the agent actually do, and what will it cost? Honest answers with the plan-by-plan nuances that matter to a client's security team.
 
-6. **[Rolling it out to a team](6-rolling-out-to-a-team-poc.md)**
+6. **[Rolling it out to a team](6-rolling-out-to-a-team.md)**
    How an individual's usage scales to a marketing team or agency on Teams/Enterprise. Your usage replicates identically; what's added is shared config, enforced guardrails, access, and visibility.
 
 ---

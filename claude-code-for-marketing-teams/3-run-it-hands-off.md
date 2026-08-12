@@ -1,6 +1,6 @@
 ---
 title: Running it hands-off — scheduled and automated work
-description: A proof-of-concept walkthrough of how Claude Code runs marketing work on a schedule or in response to events with no one at the keyboard — cloud routines, local desktop tasks, in-session loops, and pipeline automation — plus an honest read on what assumes a code repository and what doesn't.
+description: A practical walkthrough of how Claude Code runs marketing work on a schedule or in response to events with no one at the keyboard — cloud routines, local desktop tasks, in-session loops, and pipeline automation — plus an honest read on what assumes a code repository and what doesn't.
 date: 2026-08-12
 version: 1.2
 status: published

@@ -1,6 +1,6 @@
 ---
 title: Putting it in non-coders' hands — the surfaces beyond the terminal
-description: A proof-of-concept walkthrough of the Claude Code surfaces a non-technical marketer actually touches — the desktop app and the browser/mobile web version — with an honest read on which one needs a code repository and which is the real on-ramp.
+description: A practical walkthrough of the Claude Code surfaces a non-technical marketer actually touches — the desktop app and the browser/mobile web version — with an honest read on which one needs a code repository and which is the real on-ramp.
 date: 2026-08-12
 version: 1.2
 status: published

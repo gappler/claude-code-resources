@@ -1,6 +1,6 @@
 ---
 title: Rolling it out to a team — Claude Code for Teams and Enterprise
-description: A proof-of-concept walkthrough of how an individual's Claude Code usage carries over to a marketing team or agency on the Teams and Enterprise plans — what replicates identically, and the org layer that gets added around it (shared config, enforced guardrails, access, and visibility).
+description: A practical walkthrough of how an individual's Claude Code usage carries over to a marketing team or agency on the Teams and Enterprise plans — what replicates identically, and the org layer that gets added around it (shared config, enforced guardrails, access, and visibility).
 date: 2026-08-12
 version: 1.2
 status: published

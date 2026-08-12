@@ -1,6 +1,6 @@
 ---
 title: Building reusable marketing workflows with Claude Code
-description: A proof-of-concept walkthrough of the Claude Code building blocks a marketing team uses to turn repeatable processes into AI systems — Skills, subagents and agent teams, dynamic workflows, and output styles.
+description: A practical walkthrough of the Claude Code building blocks a marketing team uses to turn repeatable processes into AI systems — Skills, subagents and agent teams, dynamic workflows, and output styles.
 date: 2026-08-12
 version: 1.2
 status: published
@@ -231,7 +231,7 @@ Put the blocks in one line and the system becomes concrete. Imagine producing a 
 
 If the whole session is spent writing, a personal output style can pin the voice for that session.
 
-No step depends on remembering how it's done, and no step changes shape based on who ran it. That's the proof of concept: the same marketing process, captured once, run the same way by anyone, every time.
+No step depends on remembering how it's done, and no step changes shape based on who ran it. That's the whole idea: the same marketing process, captured once, run the same way by anyone, every time.
 
 ---
 

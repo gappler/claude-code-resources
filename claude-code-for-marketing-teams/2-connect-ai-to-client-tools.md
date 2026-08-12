@@ -1,6 +1,6 @@
 ---
 title: Connecting AI to the tools clients already use
-description: A proof-of-concept walkthrough of how Claude Code connects to the systems a marketing team already runs on — CMS, analytics, drives, project tools, CRM — through MCP, plus an honest read on triggering from Slack and chat, and the controls that answer "where does our data go?"
+description: A practical walkthrough of how Claude Code connects to the systems a marketing team already runs on — CMS, analytics, drives, project tools, CRM — through MCP, plus an honest read on triggering from Slack and chat, and the controls that answer "where does our data go?"
 date: 2026-08-12
 version: 1.2
 status: published
