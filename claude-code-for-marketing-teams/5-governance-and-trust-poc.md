@@ -18,9 +18,8 @@ Every piece before this one was about what Claude Code can do. This one is about
 
 These aren't objections to overcome with confidence. They're reasonable, and the answers are mostly good. The catch is that each one carries real nuances that depend on which plan you're on. Getting those nuances right is the difference between a trust-building conversation and a promise that falls apart under procurement's questions.
 
-<div class="glance">
-  <div class="row"><div class="k">The point</div><div class="v">Clients ask three things before buying in, data, control, and cost. The honest answers are mostly good.</div></div>
-</div>
+> [!TIP]
+> **The point:** Clients ask three things before buying in, data, control, and cost. The honest answers are mostly good.
 
 (This is Claude Code, the agentic tool, not the claude.ai chat app. The data and trust rules differ between the two, which matters below.)
 
@@ -45,10 +44,8 @@ The practical guidance is simple. If data sensitivity matters at all, the client
 - **Zero Data Retention (ZDR)** is available for qualified Enterprise accounts. Prompts and responses aren't stored at all once the response comes back.
 - **A local footnote worth knowing.** Claude Code stores session transcripts in plain text on the user's own machine (about 30 days by default) so sessions can resume. That's local, not on Anthropic's servers, but it's a real data-handling fact for anything sensitive.
 
-<div class="honest">
-  <span class="lbl">The honest read</span>
-  <p>ZDR is not part of the standard Enterprise plan. Anthropic's account team has to request and enable it after an eligibility check, so you can't toggle it on yourself. Don't tell a client they "have ZDR" until you've confirmed it's actually been turned on. It's the easiest thing in this whole conversation to over-promise.</p>
-</div>
+> [!WARNING]
+> **The honest read:** ZDR is not part of the standard Enterprise plan. Anthropic's account team has to request and enable it after an eligibility check, so you can't toggle it on yourself. Don't tell a client they "have ZDR" until you've confirmed it's actually been turned on. It's the easiest thing in this whole conversation to over-promise.
 
 ### Security and compliance posture
 
@@ -92,10 +89,8 @@ For more autonomous use, Claude Code can run commands inside a **sandbox**, oper
 
 This is where precision earns trust, because the controls are not all equally hard. The line that matters most runs between what's enforced and what's only guidance.
 
-<div class="honest">
-  <span class="lbl">The honest read</span>
-  <p>Permission rules and managed settings are genuinely enforced by Claude Code, independent of the model's judgment, so a deny rule blocks the action. CLAUDE.md and prompt instructions are not. "We told it in CLAUDE.md not to touch X" shapes behavior but doesn't guarantee it, so it isn't a control. For a real boundary, use a deny rule or the sandbox. Conflating the two is the most common way a trust claim falls apart.</p>
-</div>
+> [!WARNING]
+> **The honest read:** Permission rules and managed settings are genuinely enforced by Claude Code, independent of the model's judgment, so a deny rule blocks the action. CLAUDE.md and prompt instructions are not. "We told it in CLAUDE.md not to touch X" shapes behavior but doesn't guarantee it, so it isn't a control. For a real boundary, use a deny rule or the sandbox. Conflating the two is the most common way a trust claim falls apart.
 
 The rest of the distinctions still matter.
 

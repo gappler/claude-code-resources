@@ -12,9 +12,8 @@ source: Claude Code docs — skills.md, agent-sdk__skills.md, sub-agents.md, age
 
 Most of what's written about Claude Code treats it as a coding tool. For a marketing team, that framing buries the part that matters. Underneath the code-specific features is a general system for building and governing AI agents that get work done and stay inside the guardrails you set. That's the part marketing should care about, because the work a marketing team repeats is exactly the kind of process this system can capture and run. This piece walks through the building blocks you'd assemble to turn a marketing process into something anyone on the team can run the same way every time.
 
-<div class="glance">
-  <div class="row"><div class="k">The point</div><div class="v">Turn a process you repeat into a system the whole team runs the same way, every time.</div></div>
-</div>
+> [!TIP]
+> **The point:** Turn a process you repeat into a system the whole team runs the same way, every time.
 
 ---
 
@@ -60,10 +59,8 @@ Every level that applies loads at once, so your personal rules and the project's
 
 The folder-level file is the one worth knowing about. A team running several channels can put channel-specific rules in a `CLAUDE.md` inside each channel's folder, so the social voice rules load when Claude works in the social folder and the email rules when it's in email. That's how a brand's voice bends by channel without one giant rulebook.
 
-<div class="honest">
-  <span class="lbl">The honest read</span>
-  <p>CLAUDE.md is context, not an enforced rule. Claude reads it and tries to follow it, but it's guidance, not a hard gate. For something that has to happen every time, like a check that runs before a piece ships, you'd use a hook: a command Claude Code runs automatically on every action, regardless of what Claude decides. Hooks are an advanced topic this piece doesn't cover, but the enforcement option is there for when a rule truly can't be optional.</p>
-</div>
+> [!WARNING]
+> **The honest read:** CLAUDE.md is context, not an enforced rule. Claude reads it and tries to follow it, but it's guidance, not a hard gate. For something that has to happen every time, like a check that runs before a piece ships, you'd use a hook: a command Claude Code runs automatically on every action, regardless of what Claude decides. Hooks are an advanced topic this piece doesn't cover, but the enforcement option is there for when a rule truly can't be optional.
 
 ### Skills, what they are
 
@@ -144,10 +141,8 @@ The "competing hypotheses" pattern also translates. If a campaign underperformed
 
 **How to use it.** Agent teams are experimental and off by default. You turn them on with a setting, then describe the team in plain language ("create a team to review this launch from three angles"). Start with 3–5 teammates, and start with research or review tasks rather than parallel writing, since two agents editing the same file overwrite each other.
 
-<div class="honest">
-  <span class="lbl">The honest read</span>
-  <p>Agent teams use significantly more tokens than a single session, because each teammate is a full instance of Claude. That's worth it for research and review, and overkill for routine work.</p>
-</div>
+> [!WARNING]
+> **The honest read:** Agent teams use significantly more tokens than a single session, because each teammate is a full instance of Claude. That's worth it for research and review, and overkill for routine work.
 
 ### Dynamic workflows, when the job is too big to coordinate by hand
 
@@ -211,10 +206,8 @@ What makes it a whole-session tool, and not a switch you flip for a single deliv
 
 **How to use it.** It's a Markdown file of instructions, selected through `/config`. You choose whether to keep Claude's built-in software-engineering behavior or drop it for a pure writing assistant. It holds on every response until you switch it.
 
-<div class="honest">
-  <span class="lbl">The honest read</span>
-  <p>Because it reshapes every response, including how Claude talks to you, an output style fits a session where Claude is your writer throughout, not something you flip on for one branded asset. And by default it's a personal setting. For a brand voice a whole team relies on, the layers that load and travel automatically are CLAUDE.md, for the rules and vocabulary, and shared Skills. Treat an output style as a personal default layered on top of those, not the thing that carries the brand.</p>
-</div>
+> [!WARNING]
+> **The honest read:** Because it reshapes every response, including how Claude talks to you, an output style fits a session where Claude is your writer throughout, not something you flip on for one branded asset. And by default it's a personal setting. For a brand voice a whole team relies on, the layers that load and travel automatically are CLAUDE.md, for the rules and vocabulary, and shared Skills. Treat an output style as a personal default layered on top of those, not the thing that carries the brand.
 
 ### Which layer holds what
 

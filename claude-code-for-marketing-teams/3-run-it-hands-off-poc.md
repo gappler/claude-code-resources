@@ -14,9 +14,8 @@ The first two pieces were about work you start. You package a process, connect i
 
 "Hands-off" means no one is at the keyboard when the work runs. That changes how you set it up. The instructions have to be self-contained, and you decide in advance what the AI is allowed to touch. The back half of this piece is about doing that well, because it's where unattended automation succeeds or quietly goes wrong.
 
-<div class="glance">
-  <div class="row"><div class="k">The point</div><div class="v">Recurring marketing work that runs on a schedule without anyone driving it. This is the retention story.</div></div>
-</div>
+> [!TIP]
+> **The point:** Recurring marketing work that runs on a schedule without anyone driving it. This is the retention story.
 
 One thing shapes everything below, so it's worth saying first. **Most of Claude Code's hands-off automation is built around a code repository.** The cloud option clones a GitHub repo to work in, and the pipeline options live inside GitHub. One exception runs against a plain folder on your machine, and for a marketing team that exception is often the most practical starting point. I'll flag which is which as we go.
 
@@ -75,10 +74,8 @@ Routines are powerful but come with real conditions, straight from the docs:
 - **Connectors come from your claude.ai account,** not from servers you added locally in the terminal (this ties back to piece two, the connectors a routine can use are the ones on your account).
 - **Runs draw down your usage,** and there's a daily cap on how many can start. Recurring value has a recurring cost.
 
-<div class="honest">
-  <span class="lbl">The honest read</span>
-  <p>A routine clones a GitHub repository at the start of every run. For dev work that's natural. For marketing content it means the content either lives in a repo, or the routine works entirely through connectors (your CMS, drive, analytics) rather than files. This is the single biggest "is this practical for us" question, so scope it honestly before you put it in front of a client.</p>
-</div>
+> [!WARNING]
+> **The honest read:** A routine clones a GitHub repository at the start of every run. For dev work that's natural. For marketing content it means the content either lives in a repo, or the routine works entirely through connectors (your CMS, drive, analytics) rather than files. This is the single biggest "is this practical for us" question, so scope it honestly before you put it in front of a client.
 
 ---
 
@@ -143,10 +140,8 @@ When no one is at the keyboard, **the prompt can't ask a clarifying question.** 
 - **Build in guardrails for timing,** since a run may fire late, like "only today's items; if it's after hours, just summarize."
 - **Scope what it can touch.** The right connectors and nothing more, the right folder or repo and nothing more. Autonomy plus broad access is how unattended runs cause damage.
 
-<div class="honest">
-  <span class="lbl">The honest read</span>
-  <p>"It ran" isn't "it worked." A green checkmark means the run finished, not that it did the right thing. Open the early runs and confirm what actually happened before you trust the rhythm, and keep spot-checking once you do.</p>
-</div>
+> [!WARNING]
+> **The honest read:** "It ran" isn't "it worked." A green checkmark means the run finished, not that it did the right thing. Open the early runs and confirm what actually happened before you trust the rhythm, and keep spot-checking once you do.
 
 Here's a good way to frame it for a client. An unattended automation is only as good as the instructions you'd give a competent assistant who can't call you to ask. Write it that way.
 

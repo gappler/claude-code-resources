@@ -14,9 +14,8 @@ The first piece in this series was about turning a marketing process into a reus
 
 The mechanism that makes this possible is **MCP**, the Model Context Protocol. It's the single most important idea in this piece, so most of what follows is about MCP and what it opens up. The rest is a plain accounting of two things people assume work better than they currently do (triggering from Slack and chat), and the controls that answer the question every client asks before connecting anything. Where does our data go, and who controls it?
 
-<div class="glance">
-  <div class="row"><div class="k">The point</div><div class="v">An AI wired into the tools you already run on (CMS, analytics, drive, project tool), instead of export, paste, prompt.</div></div>
-</div>
+> [!TIP]
+> **The point:** An AI wired into the tools you already run on (CMS, analytics, drive, project tool), instead of export, paste, prompt.
 
 ---
 
@@ -66,10 +65,8 @@ The appealing version is non-technical marketers firing off AI tasks from Slack 
 
 There's a Claude integration for Slack where mentioning `@Claude` with a task spins up a session. The coding path is the built-out one: it detects coding intent, routes to Claude Code on the web (the browser-based version, not the claude.ai chat app), works against your connected GitHub repositories, and opens its work as a pull request, pulling context from the Slack thread. That's powerful for a product or engineering team reacting to bug reports in a channel. Non-coding messages can route to plain Claude Chat instead, but that's a general assistant, not your Claude Code setup. One caveat on plan tiers: on Team and Enterprise this per-user Slack version is being retired in favor of **Claude Tag**, where `@Claude` runs as the organization's shared identity with admin-configured access — while the per-user path above remains on Pro and Max.
 
-<div class="honest">
-  <span class="lbl">The honest read</span>
-  <p>For a marketing team, this is not yet a clean "trigger a content workflow from Slack" path. You can chat with Claude there, but the route wired into Claude Code, with your Skills and brand rules, is the coding one, which assumes a GitHub repo. The direction exists and is improving, but I wouldn't build a client promise on marketers running content jobs from Slack today.</p>
-</div>
+> [!WARNING]
+> **The honest read:** For a marketing team, this is not yet a clean "trigger a content workflow from Slack" path. You can chat with Claude there, but the route wired into Claude Code, with your Skills and brand rules, is the coding one, which assumes a GitHub repo. The direction exists and is improving, but I wouldn't build a client promise on marketers running content jobs from Slack today.
 
 ### Channels, early and technical
 

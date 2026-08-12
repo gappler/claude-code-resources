@@ -16,9 +16,8 @@ The short answer is reassuring. Your individual usage replicates exactly. Teams 
 
 This piece is about that layer, kept deliberately at a high level rather than down in the admin weeds (no SSO-provisioning or device-management detail). For the data, control, and cost specifics, it leans on the governance piece rather than repeating them.
 
-<div class="glance">
-  <div class="row"><div class="k">The point</div><div class="v">Your individual usage replicates on a team plan. What you gain is shared config, enforced guardrails, access, and visibility.</div></div>
-</div>
+> [!TIP]
+> **The point:** Your individual usage replicates on a team plan. What you gain is shared config, enforced guardrails, access, and visibility.
 
 ---
 
@@ -82,10 +81,8 @@ The governance piece covered which controls exist (permission rules, sandbox, da
 - **An admin can turn whole surfaces on or off** org-wide: web sessions, routines, remote control, channels. This is the bridge to the surfaces question, the team layer decides which doors are even open, on top of how each individual uses them.
 - **An admin can also govern which models the team uses.** Enterprise settings can restrict which models are available, set the default, and cap how much reasoning effort agents spend. For a marketing team that's a single lever on both consistency and spend, decided once for everyone rather than left to each person.
 
-<div class="honest">
-  <span class="lbl">The honest read</span>
-  <p>Managed settings are a client-side control, not a security boundary. On an unmanaged device a user can work around them without needing admin or sudo access, for instance by running a modified or older client that never applies the policy. For genuine enforcement, device-managed (MDM) settings on company-controlled machines are stronger. For most marketing teams this is academic, but it's the accurate version if a security team asks "can someone just turn this off?"</p>
-</div>
+> [!WARNING]
+> **The honest read:** Managed settings are a client-side control, not a security boundary. On an unmanaged device a user can work around them without needing admin or sudo access, for instance by running a modified or older client that never applies the policy. For genuine enforcement, device-managed (MDM) settings on company-controlled machines are stronger. For most marketing teams this is academic, but it's the accurate version if a security team asks "can someone just turn this off?"
 
 ---
 
@@ -100,10 +97,8 @@ Team plans add dashboards. Here's where the marketing-versus-engineering distinc
 
 The part that probably won't fit is the dashboard's headline numbers.
 
-<div class="honest">
-  <span class="lbl">The honest read</span>
-  <p>The headline "ROI" and "contribution" metrics in the analytics dashboard are built for engineering. They count pull requests and lines of code shipped with Claude Code, attributed via GitHub. A marketing team mostly doesn't produce PRs and lines of code, so the leaderboard and contribution charts will look empty or irrelevant. Don't promise a client a "Claude Code ROI dashboard" and then show them a tool that measures code commits. For marketing, ROI is better told through adoption, cost data, and the marketing output itself — campaigns shipped, briefs turned around, drafts through QA — not the built-in contribution metrics. Those metrics also aren't available under ZDR at all, another reason not to lean on them for a security-conscious client.</p>
-</div>
+> [!WARNING]
+> **The honest read:** The headline "ROI" and "contribution" metrics in the analytics dashboard are built for engineering. They count pull requests and lines of code shipped with Claude Code, attributed via GitHub. A marketing team mostly doesn't produce PRs and lines of code, so the leaderboard and contribution charts will look empty or irrelevant. Don't promise a client a "Claude Code ROI dashboard" and then show them a tool that measures code commits. For marketing, ROI is better told through adoption, cost data, and the marketing output itself — campaigns shipped, briefs turned around, drafts through QA — not the built-in contribution metrics. Those metrics also aren't available under ZDR at all, another reason not to lean on them for a security-conscious client.
 
 ---
 

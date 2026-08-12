@@ -12,9 +12,8 @@ source: Claude Code docs — claude-code-on-the-web.md, web-quickstart.md, deskt
 
 Everything in this series so far might have read like it lives in a terminal, a command line, a developer's tool. It doesn't have to. Claude Code runs the same engine behind a few different surfaces, and one of them is a normal desktop app with buttons and panes. For a marketing team the surface isn't a footnote. It's the thing that decides whether people actually use any of this. A capability nobody will open is worth nothing.
 
-<div class="glance">
-  <div class="row"><div class="k">The point</div><div class="v">The desktop app's Local mode is the real on-ramp. It's graphical, needs no terminal, and works against a plain folder without a code repository.</div></div>
-</div>
+> [!TIP]
+> **The point:** The desktop app's Local mode is the real on-ramp. It's graphical, needs no terminal, and works against a plain folder without a code repository.
 
 The frame comes straight from the Claude Code docs. **Claude Code behaves the same everywhere.** What changes between surfaces is where the work runs and whether it needs a code repository. That second part matters most for a non-technical user, and it's where the easy assumption ("just use the no-terminal version") goes wrong. So this piece is mostly about picking the right door in.
 
@@ -60,10 +59,8 @@ Download the app, sign in, open the **Code** tab, choose **Local**, pick a folde
 
 The desktop app runs on Mac and Windows, with a Linux build now in beta. For a non-technical marketer that's rarely the deciding factor, since they're almost always on a Mac or Windows machine anyway.
 
-<div class="honest">
-  <span class="lbl">The honest read</span>
-  <p>The desktop app has three tabs, and only one of them is Claude Code. Alongside the <strong>Code</strong> tab there's a <strong>Chat</strong> tab (a plain chat, like the claude.ai app) and a <strong>Cowork</strong> tab (a separate autonomous agent that runs on its own). Cowork is not Claude Code, and it sits outside this series. When you onboard someone, point them at the Code tab specifically, or they'll land somewhere that doesn't do what these pieces describe.</p>
-</div>
+> [!WARNING]
+> **The honest read:** The desktop app has three tabs, and only one of them is Claude Code. Alongside the <strong>Code</strong> tab there's a <strong>Chat</strong> tab (a plain chat, like the claude.ai app) and a <strong>Cowork</strong> tab (a separate autonomous agent that runs on its own). Cowork is not Claude Code, and it sits outside this series. When you onboard someone, point them at the Code tab specifically, or they'll land somewhere that doesn't do what these pieces describe.
 
 **A personal note.** The desktop app is the on-ramp I'd give a first-timer. My own daily setup is Claude Code running as an extension inside an editor like VS Code. You install it from the editor's extensions panel, point it at any folder with no repository required, and get inline diffs, @-mentions, and plan review in the window you already work in. The same Skills, brand rules, and connectors come along, since the local surfaces share one configuration. It's a step up from the on-ramp rather than the first door, and with a little setup help it tends to click quickly.
 
@@ -81,10 +78,8 @@ The appeal is real. No install, no terminal, and you can kick off work from a br
 
 ### The honest catch
 
-<div class="honest">
-  <span class="lbl">The honest read</span>
-  <p>The web version requires a GitHub repository. It clones a repo into a cloud machine to work in, then pushes its results back as a branch. That's natural for software teams and a genuine obstacle for a marketing team whose content lives in folders, a CMS, or a drive rather than a code repository.</p>
-</div>
+> [!WARNING]
+> **The honest read:** The web version requires a GitHub repository. It clones a repo into a cloud machine to work in, then pushes its results back as a branch. That's natural for software teams and a genuine obstacle for a marketing team whose content lives in folders, a CMS, or a drive rather than a code repository.
 
 What that means for a non-technical marketer depends on where the content already lives:
 
