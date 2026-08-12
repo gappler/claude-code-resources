@@ -16,8 +16,6 @@ Most of what's written about Claude Code treats it as a coding tool. For a marke
 > [!TIP]
 > **The point:** Turn a process you repeat into a system the whole team runs the same way, every time.
 
-*New to this and wondering where you actually click? Piece four covers the surfaces, the desktop app, no terminal needed. This piece is about what you build.*
-
 ---
 
 ## 1. The mental model: a process, not a prompt
