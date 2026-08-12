@@ -1,18 +1,21 @@
 ---
-title: Claude Code for marketing teams — a six-part guide
+title: Claude Code for Marketing Teams — a six-part guide
 description: Index and reading guide for a six-part series on using Claude Code to build, connect, run, govern, and scale repeatable marketing work. Entry point for the whole set.
 date: 2026-08-12
 version: 1.2
 status: published
 audience: marketing teams and agencies evaluating Claude Code
+author: Greg Appler / Agency State
 source: The official Claude Code documentation (https://code.claude.com/docs)
 ---
 
-# Claude Code for marketing teams
+# Claude Code for Marketing Teams
+
+*By Greg Appler, Agency State.*
 
 **Premise:** Claude Code isn't a coding tool that marketers borrow — it's a platform for building and governing AI agents that do marketing work. This series takes that one idea and walks it from "package a single process" to "roll it out across a team," using the official Claude Code documentation as the evidence behind each claim.
 
-It's written for a non-technical marketing audience and anchored specifically to **Claude Code** (the agentic tool), not the claude.ai chat app. Each piece follows the same shape — what it is, why a marketer cares, how to use it.
+It's written for a non-technical marketing audience — both in-house marketing teams and agencies (where a piece says "client," an in-house reader can read "your stakeholders") — and anchored specifically to **Claude Code** (the agentic tool), not the claude.ai chat app. Each piece follows the same shape — what it is, why a marketer cares, how to use it.
 
 **Origin:** the series is built by mapping the official Claude Code documentation to marketing jobs-to-be-done, following that arc across the six pieces.
 
@@ -44,4 +47,4 @@ The six pieces build on each other: **build → connect → run → hand over �
 
 ## If you only teach three
 
-The thesis lives in **pieces 1, 2, and 5** — package a process (Skills), connect it to real tools (MCP), and clear the trust conversation (governance). That trio is the whole "turn a marketing process into a governed, repeatable AI system" story, and it's what separates this from generic "prompt better" advice.
+The thesis lives in **pieces 1, 2, and 5** — package a process (Skills), connect it to real tools (MCP), and clear the trust conversation (governance). Those three pieces are the whole "turn a marketing process into a governed, repeatable AI system" story, and it's what separates this from generic "prompt better" advice.

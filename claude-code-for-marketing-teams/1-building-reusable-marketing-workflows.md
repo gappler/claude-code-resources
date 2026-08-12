@@ -5,6 +5,7 @@ date: 2026-08-12
 version: 1.2
 status: published
 audience: marketing teams evaluating Claude Code
+author: Greg Appler / Agency State
 source: Claude Code docs — skills.md, agent-sdk__skills.md, sub-agents.md, agents.md, agent-teams.md, workflows.md, common-workflows.md, output-styles.md, memory.md
 ---
 
@@ -14,6 +15,8 @@ Most of what's written about Claude Code treats it as a coding tool. For a marke
 
 > [!TIP]
 > **The point:** Turn a process you repeat into a system the whole team runs the same way, every time.
+
+*New to this and wondering where you actually click? Piece four covers the surfaces — the desktop app, no terminal needed. This piece is about what you build.*
 
 ---
 
@@ -180,8 +183,6 @@ The orchestration tools above are the heavy machinery. Most days, the value come
 - **Reference files and assets with `@`.** Point Claude at a specific brief, brand doc, or folder with `@filename` and its full content is in the conversation instantly, no hunting.
 - **Work from images.** Drag in a screenshot, a design mockup, or a competitor's ad and ask Claude to analyze it or describe what it shows. Useful for design feedback and visual teardowns.
 - **Plan before acting.** For anything you want to review before it changes, plan mode has Claude propose what it'll do and wait for your approval before touching anything.
-- **Resume across sittings.** A campaign plan can span days. You can reopen a session and keep going, but on long work Claude compacts the older parts of the conversation, so a clean handoff sometimes beats a raw resume.
-- **Delegate research to keep your context clean.** "Use a subagent to research X" sends the messy exploration elsewhere and brings back only the findings.
 
 ### Custom commands
 

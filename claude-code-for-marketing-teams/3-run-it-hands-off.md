@@ -5,6 +5,7 @@ date: 2026-08-12
 version: 1.2
 status: published
 audience: marketing teams evaluating Claude Code
+author: Greg Appler / Agency State
 source: Claude Code docs — routines.md, desktop-scheduled-tasks.md, scheduled-tasks.md, headless.md, github-actions.md
 ---
 

@@ -5,6 +5,7 @@ date: 2026-08-12
 version: 1.2
 status: published
 audience: marketing teams and agencies evaluating Claude Code at team scale
+author: Greg Appler / Agency State
 source: Claude Code docs — admin-setup.md, server-managed-settings.md, analytics.md, authentication.md, third-party-integrations.md, plus team-relevant sections of permissions.md, data-usage.md, costs.md, monitoring-usage.md
 ---
 

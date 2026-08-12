@@ -5,6 +5,7 @@ date: 2026-08-12
 version: 1.2
 status: published
 audience: marketing teams evaluating Claude Code
+author: Greg Appler / Agency State
 source: Claude Code docs — data-usage.md, zero-data-retention.md, legal-and-compliance.md, permissions.md, sandboxing.md, security.md, costs.md, monitoring-usage.md
 ---
 
@@ -144,7 +145,7 @@ Do that, and the governance conversation stops being a hurdle and becomes a reas
 
 ## What to take away
 
-The three questions, data, control, and cost, all have genuinely good answers, and the honest version is more persuasive than the rosy one:
+The three questions — data, control, and cost — all have genuinely good answers, and the honest version is more persuasive than the rosy one:
 
 - **Data.** On Team and Enterprise plans your work isn't used for training, it's encrypted, and the compliance certifications exist. The asterisks are the consumer-plan training choice and the fact that ZDR is a separate, requested step.
 - **Control.** The agent is permission-gated by default, and you can hard-enforce the limits an admin sets. CLAUDE.md is guidance, real boundaries are deny rules and the sandbox, and the sandbox is strong but not airtight.
