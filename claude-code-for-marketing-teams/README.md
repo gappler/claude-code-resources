@@ -15,7 +15,12 @@ source: The official Claude Code documentation (https://code.claude.com/docs)
 
 **Premise:** Claude Code isn't a coding tool that marketers borrow — it's a platform for building and governing AI agents that do marketing work. This series takes that one idea and walks it from "package a single process" to "roll it out across a team," using the official Claude Code documentation as the evidence behind each claim.
 
+**A platform, not a point tool.** Most AI-for-marketing products are point tools — they do one thing, draft copy or make images, inside someone else's app and on someone else's rules. Claude Code is a different kind of thing: a platform you govern and build on. You define the process, pin your own brand rules, connect your own tools, and set your own guardrails, and it's the same system whether you're QA-ing a single draft or running an unattended weekly audit. A point tool is quicker to start with; a platform is what you build a marketing operation on. This series is about the second.
+
 It's written for a non-technical marketing audience — both in-house marketing teams and agencies (where a piece says "client," an in-house reader can read "your stakeholders") — and anchored specifically to **Claude Code** (the agentic tool), not the claude.ai chat app. Each piece follows the same shape — what it is, why a marketer cares, how to use it.
+
+> [!NOTE]
+> **When is Claude Code worth it, versus just chatting with Claude?** Reach for Claude Code when the work is *repeatable* (you'll do it more than once and want it the same each time), needs to be *governed* (brand rules or guardrails that have to hold), or runs at *scale* (many pieces, or unattended on a schedule). For a one-off question or a quick draft, the chat app is faster and simpler. This series is about the first kind of work — turning what you repeat into a system.
 
 **Origin:** the series is built by mapping the official Claude Code documentation to marketing jobs-to-be-done, following that arc across the six pieces.
 
