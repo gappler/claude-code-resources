@@ -83,6 +83,39 @@ This is the unit that turns a process into a system. Concrete examples:
 
 The instructions can include a template for Claude to fill in, an example of the expected output, and even small scripts the Skill runs. So a brief Skill can carry your actual brief template, and a reporting Skill can generate a formatted file rather than just text in a chat window.
 
+Here's what the `/copy-qa` checklist looks like as an actual file — one folder, one `SKILL.md`. Note what it *leaves out*: the audience and the banned-phrase list live in CLAUDE.md, so the Skill reads them from there rather than repeating them — exactly the Skills-plus-CLAUDE.md division from earlier.
+
+`copy-qa/SKILL.md`
+
+```markdown
+---
+name: copy-qa
+description: Run the standard pre-publish pass on a piece of copy — claims substantiated, CTA
+  present, reading level, banned phrases, legal flags. Triggers on "QA this copy," "check this
+  draft," "is this ready to ship," or /copy-qa.
+---
+
+# Copy QA
+
+Run this pass on the draft you're pointed at — a file, an @-reference, or pasted text. Report
+only; don't rewrite. The writer owns the fix.
+
+Check each item, and quote the exact line for anything that fails:
+
+1. Claims substantiated. Every factual or performance claim ("2x faster," "the leading X") is
+   sourced or verifiably true. Flag unsupported claims.
+2. CTA present. One clear, specific call to action ("Book a 15-minute demo," not "Learn more").
+   Flag if missing or vague.
+3. Reading level. Written for the audience in CLAUDE.md. Flag sentences over ~25 words, jargon,
+   and needless passive voice.
+4. Banned phrases. Check the banned list in CLAUDE.md ("unlock," "leverage," "empower"). Flag
+   each and offer a plain replacement.
+5. Legal flags. Superlatives ("best," "guaranteed," "#1"), competitor names, unattributed
+   testimonials. Route to human legal review; don't clear them yourself.
+
+Close with a one-line verdict: ready to ship, needs edits, or needs legal review.
+```
+
 ### How to use it
 
 You make a directory and write one Markdown file. Where you put the directory decides who can use the Skill:
