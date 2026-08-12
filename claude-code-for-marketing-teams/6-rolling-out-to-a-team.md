@@ -1,12 +1,12 @@
 ---
-title: Rolling it out to a team — Claude Code for Teams and Enterprise
-description: A practical walkthrough of how an individual's Claude Code usage carries over to a marketing team or agency on the Teams and Enterprise plans — what replicates identically, and the org layer that gets added around it (shared config, enforced guardrails, access, and visibility).
+title: Rolling it out to a team: Claude Code for Teams and Enterprise
+description: A practical walkthrough of how an individual's Claude Code usage carries over to a marketing team or agency on the Teams and Enterprise plans: what replicates identically, and the org layer that gets added around it (shared config, enforced guardrails, access, and visibility).
 date: 2026-08-12
 version: 1.2
 status: published
 audience: marketing teams and agencies evaluating Claude Code at team scale
 author: Greg Appler / Agency State
-source: Claude Code docs — admin-setup.md, server-managed-settings.md, analytics.md, authentication.md, third-party-integrations.md, plus team-relevant sections of permissions.md, data-usage.md, costs.md, monitoring-usage.md
+source: Claude Code docs, admin-setup.md, server-managed-settings.md, analytics.md, authentication.md, third-party-integrations.md, plus team-relevant sections of permissions.md, data-usage.md, costs.md, monitoring-usage.md
 ---
 
 # Rolling it out to a team
@@ -99,7 +99,7 @@ Team plans add dashboards. Here's where the marketing-versus-engineering distinc
 The part that probably won't fit is the dashboard's headline numbers.
 
 > [!WARNING]
-> **The honest read:** The headline "ROI" and "contribution" metrics in the analytics dashboard are built for engineering. They count pull requests and lines of code shipped with Claude Code, attributed via GitHub. A marketing team mostly doesn't produce PRs and lines of code, so the leaderboard and contribution charts will look empty or irrelevant. Don't promise a client a "Claude Code ROI dashboard" and then show them a tool that measures code commits. For marketing, ROI is better told through adoption, cost data, and the marketing output itself — campaigns shipped, briefs turned around, drafts through QA — not the built-in contribution metrics. Those metrics also aren't available under ZDR at all, another reason not to lean on them for a security-conscious client.
+> **The honest read:** The headline "ROI" and "contribution" metrics in the analytics dashboard are built for engineering. They count pull requests and lines of code shipped with Claude Code, attributed via GitHub. A marketing team mostly doesn't produce PRs and lines of code, so the leaderboard and contribution charts will look empty or irrelevant. Don't promise a client a "Claude Code ROI dashboard" and then show them a tool that measures code commits. For marketing, ROI is better told through adoption, cost data, and the marketing output itself, campaigns shipped, briefs turned around, drafts through QA, not the built-in contribution metrics. Those metrics also aren't available under ZDR at all, another reason not to lean on them for a security-conscious client.
 
 ---
 

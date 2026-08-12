@@ -1,12 +1,12 @@
 ---
-title: Putting it in non-coders' hands — the surfaces beyond the terminal
-description: A practical walkthrough of the Claude Code surfaces a non-technical marketer actually touches — the desktop app and the browser/mobile web version — with an honest read on which one needs a code repository and which is the real on-ramp.
+title: Putting it in non-coders' hands: the surfaces beyond the terminal
+description: A practical walkthrough of the Claude Code surfaces a non-technical marketer actually touches (the desktop app and the browser/mobile web version), with an honest read on which one needs a code repository and which is the real on-ramp.
 date: 2026-08-12
 version: 1.2
 status: published
 audience: marketing teams evaluating Claude Code
 author: Greg Appler / Agency State
-source: Claude Code docs — claude-code-on-the-web.md, web-quickstart.md, desktop-quickstart.md
+source: Claude Code docs, claude-code-on-the-web.md, web-quickstart.md, desktop-quickstart.md
 ---
 
 # Putting it in non-coders' hands
@@ -85,7 +85,7 @@ The appeal is real. No install, no terminal, and you can kick off work from a br
 What that means for a non-technical marketer depends on where the content already lives:
 
 - If the client's content already lives in a repo (some publishing setups do), the web version is a clean, no-terminal way to work with it from anywhere.
-- If it doesn't, which is the common case, the web version's value comes through **connectors** and MCP tools wired in at the repo or environment level (the CMS, drive, and analytics from piece two) rather than local files — set up once by someone technical, since the desktop app's point-and-click connector menu isn't available in cloud sessions.
+- If it doesn't, which is the common case, the web version's value comes through **connectors** and MCP tools wired in at the repo or environment level (the CMS, drive, and analytics from piece two) rather than local files, set up once by someone technical, since the desktop app's point-and-click connector menu isn't available in cloud sessions.
 - For a marketer working with files on their own machine, the **desktop app's Local mode** is the better fit, full stop.
 
 ---

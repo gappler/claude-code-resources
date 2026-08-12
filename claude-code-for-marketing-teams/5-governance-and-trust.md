@@ -1,12 +1,12 @@
 ---
-title: Governance and trust — the questions a client asks before buying in
-description: A practical walkthrough of the three pre-purchase questions every marketing client raises about Claude Code — where does our data go, what can the agent actually do, and what will it cost — with honest answers and the plan-by-plan nuances that matter.
+title: Governance and trust: the questions a client asks before buying in
+description: A practical walkthrough of the three pre-purchase questions every marketing client raises about Claude Code (where does our data go, what can the agent actually do, and what will it cost), with honest answers and the plan-by-plan nuances that matter.
 date: 2026-08-12
 version: 1.2
 status: published
 audience: marketing teams evaluating Claude Code
 author: Greg Appler / Agency State
-source: Claude Code docs — data-usage.md, zero-data-retention.md, legal-and-compliance.md, permissions.md, sandboxing.md, security.md, costs.md, monitoring-usage.md
+source: Claude Code docs, data-usage.md, zero-data-retention.md, legal-and-compliance.md, permissions.md, sandboxing.md, security.md, costs.md, monitoring-usage.md
 ---
 
 # Governance and trust
@@ -20,7 +20,7 @@ Every piece before this one was about what Claude Code can do. This one is about
 These aren't objections to overcome with confidence. They're reasonable, and the answers are mostly good. The catch is that each one carries real nuances that depend on which plan you're on. Getting those nuances right is the difference between a trust-building conversation and a promise that falls apart under procurement's questions.
 
 > [!TIP]
-> **The point:** Clients ask three things before buying in, data, control, and cost. The honest answers are mostly good.
+> **The point:** Clients ask three things before buying in: data, control, and cost. The honest answers are mostly good.
 
 (This is Claude Code, the agentic tool, not the claude.ai chat app. The data and trust rules differ between the two, which matters below.)
 
@@ -62,7 +62,7 @@ Three things to state plainly rather than gloss:
 
 - **ZDR doesn't cover everything.** Even when it's enabled, it doesn't extend to the claude.ai chat app, the Cowork agent, or data handled by **third-party integrations and connectors** (the MCP tools from piece two). Those follow their own providers' policies, so review them separately.
 - **Consumer plans train by choice, not never.** Don't describe Pro/Max as "your data is never used." It's "you control whether it's used," which is a different sentence.
-- **Connectors send data to other services.** The moment you connect a CMS or analytics tool, that tool's data handling is in scope too. Anthropic's policies cover Anthropic, they don't cover the connector.
+- **Connectors send data to other services.** The moment you connect a CMS or analytics tool, that tool's data handling is in scope too. Anthropic's policies cover Anthropic; they don't cover the connector.
 
 ---
 
@@ -84,7 +84,7 @@ Beyond the default, you can define exactly what an agent is allowed to do:
 
 ### A sandbox for stronger isolation
 
-For more autonomous use, Claude Code can run commands inside a **sandbox**, operating-system-level limits on which files and which internet domains a command can touch, enforced by the OS regardless of what the agent decides to do. It's the difference between "we asked it not to" and "it can't." In practice: an agent running your weekly analytics pull can be boxed in so it reaches your analytics tool and nothing else — not the rest of your machine, not the open web.
+For more autonomous use, Claude Code can run commands inside a **sandbox**, operating-system-level limits on which files and which internet domains a command can touch, enforced by the OS regardless of what the agent decides to do. It's the difference between "we asked it not to" and "it can't." In practice: an agent running your weekly analytics pull can be boxed in so it reaches your analytics tool and nothing else, not the rest of your machine, not the open web.
 
 ### The distinctions that matter
 
@@ -95,7 +95,7 @@ This is where precision earns trust, because the controls are not all equally ha
 
 The rest of the distinctions still matter.
 
-- **The sandbox reduces risk, it isn't airtight.** The docs are explicit. It doesn't inspect encrypted traffic, broad domain allowances can become data-exfiltration paths, and it doesn't run on native Windows (Mac/Linux/WSL2 only). Sell it as strong risk reduction, not a perfect wall.
+- **The sandbox reduces risk but isn't airtight.** The docs are explicit. It doesn't inspect encrypted traffic, broad domain allowances can become data-exfiltration paths, and it doesn't run on native Windows (Mac/Linux/WSL2 only). Sell it as strong risk reduction, not a perfect wall.
 - **Secrets can be locked down explicitly.** A sandbox credentials setting denies reads of files like `~/.aws/credentials` and `~/.ssh` and strips or masks secret environment variables from sandboxed commands, so the agent can't read them while it works. It's a first-party control for exactly the worry a client raises.
 - **Connectors aren't security-audited by Anthropic.** Anthropic reviews directory listings but doesn't vet what a given MCP server does. Connector trust is the user's responsibility, which is why an admin can restrict exactly which ones connect (piece two).
 - **Ultimately, you're responsible for review.** The docs say it directly. Claude Code has only the permissions you grant, and you review what it proposes. The right framing for a client isn't "it's perfectly safe," it's "you decide what it can do, and the limits you set are enforced."
@@ -132,7 +132,7 @@ The realistic framing. The published benchmark, roughly **$13 per active day and
 
 What you'd actually confirm before telling a client "yes, this clears your requirements":
 
-1. **Plan.** Team or Enterprise if data sensitivity matters at all, that's where non-training is the default. Don't run sensitive client work on a personal Pro plan without checking the training setting.
+1. **Plan.** Team or Enterprise if data sensitivity matters at all; that's where non-training is the default. Don't run sensitive client work on a personal Pro plan without checking the training setting.
 2. **ZDR, if required.** If the client needs zero retention or HIPAA, confirm ZDR has actually been requested and enabled by the account team. It's not automatic.
 3. **Guardrails.** Decide what agents may and may not do, write it as enforced permission rules (and managed settings if it must hold team-wide), and lean on read-only defaults for review work.
 4. **Connectors.** Vet each connected tool's own data handling, and use admin controls to restrict which connectors are allowed. Anthropic's policies don't extend to them.
@@ -145,7 +145,7 @@ Do that, and the governance conversation stops being a hurdle and becomes a reas
 
 ## What to take away
 
-The three questions — data, control, and cost — all have genuinely good answers, and the honest version is more persuasive than the rosy one:
+The three questions (data, control, and cost) all have genuinely good answers, and the honest version is more persuasive than the rosy one:
 
 - **Data.** On Team and Enterprise plans your work isn't used for training, it's encrypted, and the compliance certifications exist. The asterisks are the consumer-plan training choice and the fact that ZDR is a separate, requested step.
 - **Control.** The agent is permission-gated by default, and you can hard-enforce the limits an admin sets. CLAUDE.md is guidance, real boundaries are deny rules and the sandbox, and the sandbox is strong but not airtight.

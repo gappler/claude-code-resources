@@ -1,12 +1,12 @@
 ---
-title: Running it hands-off — scheduled and automated work
-description: A practical walkthrough of how Claude Code runs marketing work on a schedule or in response to events with no one at the keyboard — cloud routines, local desktop tasks, in-session loops, and pipeline automation — plus an honest read on what assumes a code repository and what doesn't.
+title: Running it hands-off: scheduled and automated work
+description: A practical walkthrough of how Claude Code runs marketing work on a schedule or in response to events with no one at the keyboard (cloud routines, local desktop tasks, in-session loops, and pipeline automation), plus an honest read on what assumes a code repository and what doesn't.
 date: 2026-08-12
 version: 1.2
 status: published
 audience: marketing teams evaluating Claude Code
 author: Greg Appler / Agency State
-source: Claude Code docs — routines.md, desktop-scheduled-tasks.md, scheduled-tasks.md, headless.md, github-actions.md
+source: Claude Code docs, routines.md, desktop-scheduled-tasks.md, scheduled-tasks.md, headless.md, github-actions.md
 ---
 
 # Running it hands-off
@@ -132,7 +132,7 @@ The reality is that both assume a code repository and someone comfortable with t
 
 ## 6. The real skill: writing prompts for unattended runs
 
-This is the part that determines whether hands-off automation helps or quietly produces garbage, and it's worth its own section because the docs are emphatic about it. Picture the Monday competitor digest that posts an empty summary every week — because the prompt never told it which sources to read, or where a "nothing changed" result should go. That's the failure this section exists to prevent.
+This is the part that determines whether hands-off automation helps or quietly produces garbage, and it's worth its own section because the docs are emphatic about it. Picture the Monday competitor digest that posts an empty summary every week, because the prompt never told it which sources to read, or where a "nothing changed" result should go. That's the failure this section exists to prevent.
 
 When no one is at the keyboard, **the prompt can't ask a clarifying question.** So it has to be self-contained and explicit. The discipline:
 

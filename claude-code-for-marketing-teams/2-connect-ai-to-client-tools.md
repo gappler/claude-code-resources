@@ -1,12 +1,12 @@
 ---
 title: Connecting AI to the tools clients already use
-description: A practical walkthrough of how Claude Code connects to the systems a marketing team already runs on — CMS, analytics, drives, project tools, CRM — through MCP, plus an honest read on triggering from Slack and chat, and the controls that answer "where does our data go?"
+description: A practical walkthrough of how Claude Code connects to the systems a marketing team already runs on (CMS, analytics, drives, project tools, CRM) through MCP, plus an honest read on triggering from Slack and chat, and the controls that answer "where does our data go?"
 date: 2026-08-12
 version: 1.2
 status: published
 audience: marketing teams evaluating Claude Code
 author: Greg Appler / Agency State
-source: Claude Code docs — mcp.md, mcp-quickstart.md, managed-mcp.md, slack.md, channels.md, third-party-integrations.md
+source: Claude Code docs, mcp.md, mcp-quickstart.md, managed-mcp.md, slack.md, channels.md, third-party-integrations.md
 ---
 
 # Connecting AI to the tools clients already use
@@ -64,7 +64,7 @@ The appealing version is non-technical marketers firing off AI tasks from Slack 
 
 ### Slack, real but coding-shaped today
 
-There's a Claude integration for Slack where mentioning `@Claude` with a task spins up a session. The coding path is the built-out one: it detects coding intent, routes to Claude Code on the web (the browser-based version, not the claude.ai chat app), works against your connected GitHub repositories, and opens its work as a pull request, pulling context from the Slack thread. That's powerful for a product or engineering team reacting to bug reports in a channel. Non-coding messages can route to plain Claude Chat instead, but that's a general assistant, not your Claude Code setup. One caveat on plan tiers: on Team and Enterprise this per-user Slack version is being retired in favor of **Claude Tag**, where `@Claude` runs as the organization's shared identity with admin-configured access — while the per-user path above remains on Pro and Max.
+There's a Claude integration for Slack where mentioning `@Claude` with a task spins up a session. The coding path is the built-out one: it detects coding intent, routes to Claude Code on the web (the browser-based version, not the claude.ai chat app), works against your connected GitHub repositories, and opens its work as a pull request, pulling context from the Slack thread. That's powerful for a product or engineering team reacting to bug reports in a channel. Non-coding messages can route to plain Claude Chat instead, but that's a general assistant, not your Claude Code setup. One caveat on plan tiers: on Team and Enterprise this per-user Slack version is being retired in favor of **Claude Tag**, where `@Claude` runs as the organization's shared identity with admin-configured access, while the per-user path above remains on Pro and Max.
 
 > [!WARNING]
 > **The honest read:** For a marketing team, this is not yet a clean "trigger a content workflow from Slack" path. You can chat with Claude there, but the route wired into Claude Code, with your Skills and brand rules, is the coding one, which assumes a GitHub repo. The direction exists and is improving, but I wouldn't build a client promise on marketers running content jobs from Slack today.
@@ -114,7 +114,7 @@ No exporting, no pasting, no stale copies. The information the work depends on i
 
 ## What to take away
 
-What MCP changes is simple: the brief, the data, the assets, and the brand rules are all in the room when Claude works. It's how Claude stops being a clever chat window and becomes something wired into the CMS, the analytics, the drive, and the project tool a marketing team already runs on — a governed connection an administrator controls, not an open door.
+What MCP changes is simple: the brief, the data, the assets, and the brand rules are all in the room when Claude works. It's how Claude stops being a clever chat window and becomes something wired into the CMS, the analytics, the drive, and the project tool a marketing team already runs on, a governed connection an administrator controls, not an open door.
 
 The chat-trigger story (Slack, phone, webhooks) is real and improving, but it's coding-shaped and early today, so it's worth knowing about without overpromising. And the trust question that gates all of it has a clear answer. Connections are vetted, authenticated per person, and centrally controllable.
 

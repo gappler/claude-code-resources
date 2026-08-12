@@ -1,12 +1,12 @@
 ---
 title: Building reusable marketing workflows with Claude Code
-description: A practical walkthrough of the Claude Code building blocks a marketing team uses to turn repeatable processes into AI systems — Skills, subagents and agent teams, dynamic workflows, and output styles.
+description: A practical walkthrough of the Claude Code building blocks a marketing team uses to turn repeatable processes into AI systems: Skills, subagents and agent teams, dynamic workflows, and output styles.
 date: 2026-08-12
 version: 1.2
 status: published
 audience: marketing teams evaluating Claude Code
 author: Greg Appler / Agency State
-source: Claude Code docs — skills.md, agent-sdk__skills.md, sub-agents.md, agents.md, agent-teams.md, workflows.md, common-workflows.md, output-styles.md, memory.md
+source: Claude Code docs, skills.md, agent-sdk__skills.md, sub-agents.md, agents.md, agent-teams.md, workflows.md, common-workflows.md, output-styles.md, memory.md
 ---
 
 # Building reusable marketing workflows with Claude Code
@@ -16,7 +16,7 @@ Most of what's written about Claude Code treats it as a coding tool. For a marke
 > [!TIP]
 > **The point:** Turn a process you repeat into a system the whole team runs the same way, every time.
 
-*New to this and wondering where you actually click? Piece four covers the surfaces — the desktop app, no terminal needed. This piece is about what you build.*
+*New to this and wondering where you actually click? Piece four covers the surfaces, the desktop app, no terminal needed. This piece is about what you build.*
 
 ---
 
@@ -83,21 +83,21 @@ This is the unit that turns a process into a system. Concrete examples:
 
 The instructions can include a template for Claude to fill in, an example of the expected output, and even small scripts the Skill runs. So a brief Skill can carry your actual brief template, and a reporting Skill can generate a formatted file rather than just text in a chat window.
 
-Here's what the `/copy-qa` checklist looks like as an actual file — one folder, one `SKILL.md`. Note what it *leaves out*: the audience and the banned-phrase list live in CLAUDE.md, so the Skill reads them from there rather than repeating them — exactly the Skills-plus-CLAUDE.md division from earlier.
+Here's what the `/copy-qa` checklist looks like as an actual file, one folder, one `SKILL.md`. Note what it *leaves out*: the audience and the banned-phrase list live in CLAUDE.md, so the Skill reads them from there rather than repeating them, exactly the Skills-plus-CLAUDE.md division from earlier.
 
 `copy-qa/SKILL.md`
 
 ```markdown
 ---
 name: copy-qa
-description: Run the standard pre-publish pass on a piece of copy — claims substantiated, CTA
+description: Run the standard pre-publish pass on a piece of copy, claims substantiated, CTA
   present, reading level, banned phrases, legal flags. Triggers on "QA this copy," "check this
   draft," "is this ready to ship," or /copy-qa.
 ---
 
 # Copy QA
 
-Run this pass on the draft you're pointed at — a file, an @-reference, or pasted text. Report
+Run this pass on the draft you're pointed at, a file, an @-reference, or pasted text. Report
 only; don't rewrite. The writer owns the fix.
 
 Check each item, and quote the exact line for anything that fails:
@@ -210,12 +210,9 @@ Default to subagents. Move up only when the work genuinely needs it.
 
 The orchestration tools above are the heavy machinery. Most days, the value comes from a few smaller, concrete patterns and from turning your favorites into one-word commands.
 
-### Patterns worth lifting directly
+### A few conveniences worth knowing
 
-- **Work in any folder, not just code.** Claude Code runs inside a notes folder, a docs directory, or any pile of Markdown the same way it runs in a codebase, searching, editing, and reorganizing content. Your content library is a valid workspace.
-- **Reference files and assets with `@`.** Point Claude at a specific brief, brand doc, or folder with `@filename` and its full content is in the conversation instantly, no hunting.
-- **Work from images.** Drag in a screenshot, a design mockup, or a competitor's ad and ask Claude to analyze it or describe what it shows. Useful for design feedback and visual teardowns.
-- **Plan before acting.** For anything you want to review before it changes, plan mode has Claude propose what it'll do and wait for your approval before touching anything.
+Small moves that make daily work smoother, none of them the point of this chapter, just the texture of working in the tool. Claude Code runs in any folder, not just a codebase, so your content library is a valid workspace. `@filename` pulls a specific brief or brand doc straight into the conversation. You can drag in a screenshot or a competitor's ad for Claude to read. And plan mode lets you review what it'll do before it touches anything.
 
 ### Custom commands
 
